@@ -2,5 +2,13 @@ node_modules
 dist
 dist-ssr
 *.local
-.DS_Store
+
+# Vite / TS cache
+.vite/
+*.tsbuildinfo
+
+# Logs
 *.log
+
+# Editor / OS
+.DS_Store
